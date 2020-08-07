@@ -1,0 +1,57 @@
+* {
+    border-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.base_container {
+    background-color: black;
+    position: relative;
+    height: 200vh;
+    width: 97.9vw;
+}
+
+.top_bar {
+    background-color: yellow;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    right: auto;
+    left: auto;
+}
+
+h1 {
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.toc {
+    background-color: aqua;
+    position: absolute;
+    width: 15%;
+    height: 100%;
+}
+
+.content {
+    background-color: bisque;
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 15%;
+}
+
+.foot {
+    background-color: orange;
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
